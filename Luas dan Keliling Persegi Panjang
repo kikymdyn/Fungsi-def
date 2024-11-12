@@ -4,11 +4,11 @@ def LuasPersegiPanjang (panjang, lebar):
 def KelilingPersegiPanjang (panjang, lebar):
     return 2*(panjang*lebar)
 
-p = int(input("masukkan niai panjang persegi : "))
-l = int(input("masukkan nilai lebar persegi : "))
+p = int(input("Masukkan nilai panjang persegi : "))
+l = int(input("Masukkan nilai lebar persegi : "))
 
 hasil_luas = LuasPersegiPanjang(p,l)
 hasil_keliling = KelilingPersegiPanjang(p,l)
 
 print("Luasnya adalah ", hasil_luas)
-print("kelilingnya adalah ", hasil_keliling)
+print("Kelilingnya adalah ", hasil_keliling)
