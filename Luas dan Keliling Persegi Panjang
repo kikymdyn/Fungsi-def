@@ -1,0 +1,14 @@
+def LuasPersegiPanjang (panjang, lebar):
+    return panjang*lebar
+
+def KelilingPersegiPanjang (panjang, lebar):
+    return 2*(panjang*lebar)
+
+p = int(input("masukkan niai panjang persegi : "))
+l = int(input("masukkan nilai lebar persegi : "))
+
+hasil_luas = LuasPersegiPanjang(p,l)
+hasil_keliling = KelilingPersegiPanjang(p,l)
+
+print("Luasnya adalah ", hasil_luas)
+print("kelilingnya adalah ", hasil_keliling)
